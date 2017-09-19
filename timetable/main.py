@@ -1,8 +1,8 @@
 from time import sleep
 from urllib.error import URLError
 
-import timetable.downloader as dwn
-import timetable.parser as prs
+import downloader as dwn
+import parser as prs
 
 
 downloaded = False

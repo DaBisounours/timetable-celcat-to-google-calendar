@@ -9,7 +9,7 @@ Todo:
 """
 
 
-from timetable.classes.Event import Event
+from classes.Event import Event
 
 
 class Timetable(object):

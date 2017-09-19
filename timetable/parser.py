@@ -4,10 +4,9 @@ This module is used to parse downloaded content by converting raw data into expl
 
 """
 
-import xml, time
 import untangle
-from timetable.classes.Timetable import Timetable
-from timetable.classes.Event import Event, DAYS
+from classes.Timetable import Timetable
+from classes.Event import Event, DAYS
 
 """ Creates XML object from raw data 
 @:param resource File or Bytes to be decoded 
